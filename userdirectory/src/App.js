@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
-import EmployeeTable from "./EmployeeTable"
+import EmployeeTable from "./component/EmployeeTable/EmployeeTable"
 
 class App extends React.Component {
   constructor(){
@@ -22,7 +22,7 @@ class App extends React.Component {
   render(){
     return (
       // MY HTML FOR PAGE (MY REACT COMPONENTS)
-      <div>
+      <div className="container">
         <EmployeeTable employees={this.state.data} />  
       </div>
     );

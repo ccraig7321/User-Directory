@@ -1,0 +1,89 @@
+.employeeCard{
+    width: 30%;
+    /* padding: 20px; */
+}
+
+.card.employeeCard{
+    padding: 17px;
+    margin: 10px;
+    background: rgb(170, 168, 168);
+    /* background: rgb(94, 92, 92); */
+}
+
+.header {
+    font-family: 'Sacramento', cursive;
+    font-size: 100;
+    text-decoration-style: dotted;
+}
+
+.lead{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+}
+
+.age{
+    font-family: 'DM Serif Display', serif;
+}
+
+.radioAge{
+    margin: 7px;
+}
+
+#option1.radioAge{
+    margin-top: 10px;
+    font-family: 'Sacramento', cursive;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2rCmB6VIRJbeuPbgLlug0Gjw-nyiIloHidQ&usqp=CAU");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: absolute;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+div.jumbotron{
+    background-color: lavenderblush;
+    opacity: 97%;
+    padding: 64px, 64px
+}
+
+.nameInput{
+    border: dotted;
+    border-width: 2px;
+    padding: 7px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.display-4{
+    text-align: center;
+}
+
+.card-body{
+    background-color: rgb(250, 207, 215);
+    border-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.fa-pencil-alt:before{
+    font-size: 37px;
+}
+
+.card-title{
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.card-text{
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}

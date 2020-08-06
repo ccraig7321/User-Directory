@@ -34,6 +34,10 @@
     font-family: 'Sacramento', cursive;
 }
 
+body{
+    opacity: 1.0
+}
+
 body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2rCmB6VIRJbeuPbgLlug0Gjw-nyiIloHidQ&usqp=CAU");
     background-size: cover;
@@ -45,7 +49,7 @@ body {
 
 div.jumbotron{
     background-color: lavenderblush;
-    opacity: 97%;
+    opacity: .97;
     padding: 64px, 64px
 }
 
